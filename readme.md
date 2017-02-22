@@ -1,5 +1,5 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="http://codeandcode.com.br/assets/images/logo_98x80.png">Code&Code</p>
 
 
-## About Laravel
+## About
 
