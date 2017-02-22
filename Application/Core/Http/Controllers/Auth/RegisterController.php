@@ -1,9 +1,9 @@
 <?php
 
-namespace BoletoFree\Core\Http\Controllers\Auth;
+namespace CodeWeb\Core\Http\Controllers\Auth;
 
-use BoletoFree\Domains\User\User;
-use BoletoFree\Core\Http\Controllers\Controller;
+use CodeWeb\Domains\User\User;
+use CodeWeb\Core\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

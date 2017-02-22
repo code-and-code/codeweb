@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Support\Request;
+namespace CodeWeb\Support\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 

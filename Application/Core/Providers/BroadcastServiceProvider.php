@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Providers;
+namespace CodeWeb\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

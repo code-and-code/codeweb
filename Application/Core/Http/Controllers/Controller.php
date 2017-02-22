@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Http\Controllers;
+namespace CodeWeb\Core\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

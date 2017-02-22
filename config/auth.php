@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => \BoletoFree\Domains\User\User::class
+            'model' => \CodeWeb\Domains\User\User::class
         ],
 
         // 'users' => [

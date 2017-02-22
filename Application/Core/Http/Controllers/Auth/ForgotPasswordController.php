@@ -1,8 +1,8 @@
 <?php
 
-namespace BoletoFree\Core\Http\Controllers\Auth;
+namespace CodeWeb\Core\Http\Controllers\Auth;
 
-use BoletoFree\Core\Http\Controllers\Controller;
+use CodeWeb\Core\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

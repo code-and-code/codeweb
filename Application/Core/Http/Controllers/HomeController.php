@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Http\Controllers;
+namespace CodeWeb\Core\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -14,16 +14,16 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        //c$this->middleware('auth');
+        //$this->middleware('auth');
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        return view('home.index');
+        return view('home/index');
+    }
+
+    public function minor()
+    {
+        return view('home/minor');
     }
 }

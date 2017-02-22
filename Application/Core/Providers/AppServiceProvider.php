@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Providers;
+namespace CodeWeb\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        require_once __DIR__ . '/../../Helpers/Navigation.php';
     }
 }

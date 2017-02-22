@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Providers;
+namespace CodeWeb\Core\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'BoletoFree\Core\Http\Controllers';
+    protected $namespace = 'CodeWeb\Core\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.
@@ -37,6 +37,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->mapApiRoutes();
         $this->mapWebRoutes();
+        $this->mapAdminRoutes();
         //
     }
 
@@ -52,6 +53,20 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
              ->namespace($this->namespace)
              ->group(base_path('Application/Core/Routes/web.php'));
+    }
+    /**
+     * Define the "admin" routes for the application.
+     *
+     * These routes all receive session state, CSRF protection, etc.
+     *
+     * @return void
+     */
+    protected function mapAdminRoutes()
+    {
+        Route::middleware('web')
+            ->prefix('admin')
+            ->namespace($this->namespace)
+            ->group(base_path('Application/Core/Routes/admin.php'));
     }
 
     /**

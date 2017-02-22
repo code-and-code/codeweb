@@ -10,12 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Auth::routes();
-
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/minor', 'HomeController@minor')->name("minor");
 
-Route::group(['prefix' => 'free','namespace' => 'Free','as' => 'free.'], function () {
-
-    Route::get('/create',    'BankSlipController@create')->name('create');
-    Route::post('/generate', 'BankSlipController@generate')->name('generate');
-});

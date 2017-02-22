@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Domains\User;
+namespace CodeWeb\Domains\User;
 
 use Laravel\Passport\HasApiTokens;
 use Illuminate\Notifications\Notifiable;

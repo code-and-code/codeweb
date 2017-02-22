@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        BoletoFree\Core\Providers\AppServiceProvider::class,
-        BoletoFree\Core\Providers\AuthServiceProvider::class,
-        // BoletoFree\Application\Providers\BroadcastServiceProvider::class,
-        BoletoFree\Core\Providers\EventServiceProvider::class,
-        BoletoFree\Core\Providers\RouteServiceProvider::class,
+        CodeWeb\Core\Providers\AppServiceProvider::class,
+        CodeWeb\Core\Providers\AuthServiceProvider::class,
+        // CodeWeb\Application\Providers\BroadcastServiceProvider::class,
+        CodeWeb\Core\Providers\EventServiceProvider::class,
+        CodeWeb\Core\Providers\RouteServiceProvider::class,
         Laravel\Passport\PassportServiceProvider::class,
 
     ],

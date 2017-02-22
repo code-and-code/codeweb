@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Providers;
+namespace CodeWeb\Core\Providers;
 
 use Laravel\Passport\Passport;
 use Illuminate\Support\Facades\Gate;
@@ -14,7 +14,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'BoletoFree\Core\Model' => 'BoletoFree\Core\Policies\ModelPolicy',
+        'CodeWeb\Core\Model' => 'CodeWeb\Core\Policies\ModelPolicy',
     ];
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Http\Middleware;
+namespace CodeWeb\Core\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

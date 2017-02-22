@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Providers;
+namespace CodeWeb\Core\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'BoletoFree\Core\Events\SomeEvent' => [
-            'BoletoFree\Core\Listeners\EventListener',
+        'CodeWeb\Core\Events\SomeEvent' => [
+            'CodeWeb\Core\Listeners\EventListener',
         ],
     ];
 

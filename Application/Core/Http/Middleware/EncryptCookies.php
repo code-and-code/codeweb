@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Http\Middleware;
+namespace CodeWeb\Core\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace BoletoFree\Core\Exceptions;
+namespace CodeWeb\Core\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;
