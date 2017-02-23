@@ -35,6 +35,6 @@ class Kernel extends ConsoleKernel
      */
     protected function commands()
     {
-        require base_path('Application/Core/Routes/console.php');
+        require base_path('app/Core/Routes/console.php');
     }
 }

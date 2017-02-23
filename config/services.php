@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => BoletoFree\User::class,
+        'model' => \CodeWeb\Domains\User\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b71cd625baef0ca4da01fc328e2b8bb",
-    "content-hash": "4bc84e26ca31d7566e0e121bc719eb55",
+    "hash": "968db4e854054eb9d07bb7637d3a43aa",
+    "content-hash": "df9df1735eb778d3f063e4458a3b9451",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -106,55 +106,6 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
-        },
-        {
-            "name": "eduardokum/laravel-boleto",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/eduardokum/laravel-boleto.git",
-                "reference": "cb2e43fbca7f0b9a8ce8d5a19a2d5c1f7c48a55c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eduardokum/laravel-boleto/zipball/cb2e43fbca7f0b9a8ce8d5a19a2d5c1f7c48a55c",
-                "reference": "cb2e43fbca7f0b9a8ce8d5a19a2d5c1f7c48a55c",
-                "shasum": ""
-            },
-            "require": {
-                "ext-intl": "*",
-                "illuminate/support": "5.*",
-                "itbz/fpdf": "^1.7",
-                "nesbot/carbon": "1.*",
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "3.2",
-                "phpunit/phpunit": "~5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Eduardokum\\LaravelBoleto\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Eduardo Gusmão",
-                    "email": "eduguscontra3@hotmail.com"
-                }
-            ],
-            "description": "Biblioteca com boletos para o laravel",
-            "homepage": "https://github.com/eduardokum/laravel-boleto",
-            "keywords": [
-                "eduardokum",
-                "laravel-boleto"
-            ],
-            "time": "2017-02-08 14:02:23"
         },
         {
             "name": "erusev/parsedown",
@@ -413,35 +364,57 @@
             "time": "2016-06-24 23:00:38"
         },
         {
-            "name": "itbz/fpdf",
-            "version": "1.7.3",
+            "name": "hamedmehryar/laravel-chat",
+            "version": "0.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hanneskod/fpdf.git",
-                "reference": "63340096907ef7525a9002d1ae3d0fd1ff376a6d"
+                "url": "https://github.com/hamedmehryar/laravel-chat.git",
+                "reference": "22f8ff971157acd7ed6bcb3d98926a2131305f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hanneskod/fpdf/zipball/63340096907ef7525a9002d1ae3d0fd1ff376a6d",
-                "reference": "63340096907ef7525a9002d1ae3d0fd1ff376a6d",
+                "url": "https://api.github.com/repos/hamedmehryar/laravel-chat/zipball/22f8ff971157acd7ed6bcb3d98926a2131305f18",
+                "reference": "22f8ff971157acd7ed6bcb3d98926a2131305f18",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "illuminate/config": "~5.0",
+                "illuminate/database": "~5.0",
+                "illuminate/support": "~5.0",
+                "nesbot/carbon": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "adamwathan/faktory": "0.3.*",
+                "fabpot/php-cs-fixer": "1.0.*@dev",
+                "phpunit/phpunit": "4.*"
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "fpdf": "src/"
+                    "Hamedmehryar\\Chat\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "no usage restriction"
+                "MIT"
             ],
-            "description": "Unofficial PSR-0 compliant version of the FPDF library",
-            "homepage": "http://www.fpdf.org/",
-            "time": "2016-05-27 09:02:54"
+            "authors": [
+                {
+                    "name": "Hamed mehryar",
+                    "email": "hamed@netlinks.af",
+                    "homepage": "https://github.com/hamedmehryar",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Chat feature for laravel",
+            "keywords": [
+                "chat",
+                "laravel",
+                "messaging",
+                "user messaging"
+            ],
+            "time": "2015-11-08 07:08:45"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -780,6 +753,60 @@
                 "psysh"
             ],
             "time": "2016-12-30 18:13:17"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v5.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "7570f25d58a00fd6909c0563808590f9cdb14d47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/7570f25d58a00fd6909c0563808590f9cdb14d47",
+                "reference": "7570f25d58a00fd6909c0563808590f9cdb14d47",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.4.*",
+                "illuminate/routing": "5.4.*",
+                "illuminate/session": "5.4.*",
+                "illuminate/support": "5.4.*",
+                "illuminate/view": "5.4.*",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "illuminate/database": "5.4.*",
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "http://laravelcollective.com",
+            "time": "2017-01-26 19:27:05"
         },
         {
             "name": "lcobucci/jwt",
@@ -2804,6 +2831,37 @@
             "time": "2015-05-11 14:41:42"
         },
         {
+            "name": "itbz/fpdf",
+            "version": "1.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hanneskod/fpdf.git",
+                "reference": "63340096907ef7525a9002d1ae3d0fd1ff376a6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hanneskod/fpdf/zipball/63340096907ef7525a9002d1ae3d0fd1ff376a6d",
+                "reference": "63340096907ef7525a9002d1ae3d0fd1ff376a6d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "fpdf": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "no usage restriction"
+            ],
+            "description": "Unofficial PSR-0 compliant version of the FPDF library",
+            "homepage": "http://www.fpdf.org/",
+            "time": "2016-05-27 09:02:54"
+        },
+        {
             "name": "mockery/mockery",
             "version": "0.9.8",
             "source": {
@@ -4125,9 +4183,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "eduardokum/laravel-boleto": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
